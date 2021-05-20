@@ -35,8 +35,9 @@ const App = () => {
 
     return(
         <div className="App">
+            <h1 style={{color: '#212121'}}>Find out different Recipes</h1>
         <form className="search-form" onSubmit={getSearch}>
-            <input type ="text" className="search-bar" value={search} onChange={handleSearch}/>
+            <input type ="text" className="search-bar" value={search} onChange={handleSearch} placeholder="Try out Italian, Chinese, Japanese..."/>
             <button type="submit" className="search-btn">Search</button>
         </form>
         <div className="container">

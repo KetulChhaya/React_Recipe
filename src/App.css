@@ -4,7 +4,8 @@
   display: flex;
   flex-direction: column;
   text-transform: capitalize;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center
 }
 
 .search-form {
